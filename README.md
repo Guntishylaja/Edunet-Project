@@ -1,10 +1,10 @@
 Secure Data Hiding in Images Using Steganography
 
-Overview
+Overview:
 
 This project demonstrates how to securely hide and retrieve secret data within an image using steganography techniques. Steganography is the practice of concealing information within another medium, making the hidden data undetectable to the naked eye.
 
-Features
+Features:
 
 Securely hide sensitive data inside an image
 
@@ -14,7 +14,7 @@ Uses the Least Significant Bit (LSB) method for embedding data
 
 Encryption support for additional security
 
-Prerequisites
+Prerequisites:
 
 Before running the scripts, ensure you have the following installed:
 
@@ -30,7 +30,7 @@ Install dependencies using:
 
 pip install pillow numpy cryptography
 
-Usage
+Usage:
 
 Hiding Secure Data
 
@@ -50,7 +50,7 @@ python extract_data.py output.png
 
 The script will reveal the hidden data.
 
-Example
+Example:
 
 python hide_data.py sample.png "Confidential Info" hidden_sample.png
 python extract_data.py hidden_sample.png
@@ -59,7 +59,7 @@ Expected output:
 
 Hidden Data: Confidential Info
 
-Security Considerations
+Security Considerations:
 
 Encrypt data before hiding for enhanced security.
 
